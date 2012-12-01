@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Diaspora*
 
 Diaspora is a privacy-aware, personally-controlled, do-it-all open source social network. Check out our [project site](http://diasporaproject.org).
@@ -63,3 +64,7 @@ Before submitting code, please sign our [Contributor License Agreement](https://
 - [Dev List](https://groups.google.com/forum/?fromgroups#!forum/diaspora-dev)
 - [Discuss List](https://groups.google.com/forum/?fromgroups#!forum/diaspora-discuss)
 - [IRC](https://github.com/diaspora/diaspora/wiki/How-we-use-IRC)
+=======
+nskcalnc
+========
+>>>>>>> 79fe544b4e88ecca33c05602511a85ae408a65b6

@@ -1,6 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
-#   licensed under the Affero General Public License version 3 or later.  See
-#   the COPYRIGHT file.
+
 
 # Sample localization file for English. Add more files in this directory for other locales.
 # See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
@@ -40,9 +38,9 @@ en:
   next: "next"
   previous: "previous"
   _comments: "Comments"
-  all_aspects: "All Aspects"
+  all_aspects: "All Groups"
   no_results: "No Results Found"
-  _contacts: "Contacts"
+  _contacts: "Followers"
   welcome: "Welcome!"
 
   #for reference translation, the real activerecord english transations are actually
@@ -66,7 +64,7 @@ en:
         contact:
           attributes:
             person_id:
-              taken: "must be unique among this user's contacts."
+              taken: "must be unique among this user's follower list."
         request:
           attributes:
             from_id:
@@ -138,71 +136,71 @@ en:
       unknown_person: "unknown person"
       video_title:
         unknown: "Unknown Video Title"
-      diaspora_alpha: "DIASPORA* ALPHA"
+      diaspora_alpha: "Deamspark"
   aspects:
-    zero: "no aspects"
-    one: "1 aspect"
-    two: "%{count} aspects"
-    few: "%{count} aspects"
-    many: "%{count} aspects"
-    other: "%{count} aspects"
-    contacts_visible: "Contacts in this aspect will be able to see each other."
-    contacts_not_visible: "Contacts in this aspect will not be able to see each other."
+    zero: "no groups"
+    one: "1 group"
+    two: "%{count} groups"
+    few: "%{count} groups"
+    many: "%{count} groups"
+    other: "%{count} groups"
+    contacts_visible: "Followers in this group will be able to see each other."
+    contacts_not_visible: "Followers in this group will not be able to see each other."
     edit:
-      make_aspect_list_visible: "make contacts in this aspect visible to each other?"
-      remove_aspect: "Delete this aspect"
-      confirm_remove_aspect: "Are you sure you want to delete this aspect?"
-      add_existing: "Add an existing contact"
+      make_aspect_list_visible: "make followers in this group visible to each other?"
+      remove_aspect: "Delete this group"
+      confirm_remove_aspect: "Are you sure you want to delete this group?"
+      add_existing: "Add an existing follower"
       done: "Done"
       rename: "rename"
-      aspect_list_is_visible: "aspect list is visible to others in aspect"
-      aspect_list_is_not_visible: "aspect list is hidden to others in aspect"
+      aspect_list_is_visible: "group list is visible to others in group"
+      aspect_list_is_not_visible: "group list is hidden to others in group"
       update: "update"
       updating: "updating"
     aspect_contacts:
       done_editing: "done editing"
     show:
-      edit_aspect: "edit aspect"
+      edit_aspect: "edit group"
     no_posts_message:
-      start_talking: "Nobody has said anything yet!"
+      start_talking: "Say something!!"
     no_contacts_message:
-      you_should_add_some_more_contacts: "You should add some more contacts!"
-      try_adding_some_more_contacts: "You can search or invite more contacts."
+      you_should_add_some_more_contacts: "You should add some more followers!"
+      try_adding_some_more_contacts: "You can search or invite more followers."
       or_spotlight:  "Or you can share with %{link}"
-      community_spotlight: "community spotlight"
+      community_spotlight: "limelight"
     aspect_listings:
       select_all: "Select all"
       deselect_all: "Deselect all"
       edit_aspect: "Edit %{name}"
-      add_an_aspect: "+ Add an aspect"
+      add_an_aspect: "+ Add a group"
     selected_contacts:
-      view_all_community_spotlight: "See all community spotlight"
-      view_all_contacts: "View all contacts"
-      no_contacts: "You don't have any contacts here yet."
-      manage_your_aspects: "Manage your aspects."
+      view_all_community_spotlight: "See all of limelight"
+      view_all_contacts: "View all followers"
+      no_contacts: "You don't have any followers here yet."
+      manage_your_aspects: "Manage your groups."
     new:
       name: "Name (only visible to you)"
       create: "Create"
     create:
-      success: "Your new aspect %{name} was created"
-      failure: "Aspect creation failed."
+      success: "Your new group %{name} was created"
+      failure: "Group creation failed."
     destroy:
       success: "%{name} was successfully removed."
       failure: "%{name} is not empty and could not be removed."
     update:
-      success: "Your aspect, %{name}, has been successfully edited."
-      failure: "Your aspect, %{name}, had too long name to be saved."
+      success: "Your group, %{name}, has been successfully edited."
+      failure: "Your group, %{name}, had too long name to be saved."
     move_contact:
       failure: "didn't work %{inspect}"
-      success: "Person moved to new aspect"
-      error: "Error moving contact: %{inspect}"
+      success: "Person moved to new group"
+      error: "Error moving follower: %{inspect}"
     add_to_aspect:
-      failure: "Failed to add contact to aspect."
-      success: "Successfully added contact to aspect."
+      failure: "Failed to add follower to group."
+      success: "Successfully added follower to group."
     helper:
       remove: "remove"
-      aspect_not_empty: "Aspect not empty"
-      are_you_sure: "Are you sure you want to delete this aspect?"
+      aspect_not_empty: "Group not empty"
+      are_you_sure: "Are you sure you want to delete this group?"
     seed:
       family: "Family"
       work: "Work"
@@ -210,26 +208,26 @@ en:
       friends: "Friends"
     index:
       donate: "Donate"
-      keep_pod_running: "Keep %{pod} running fast and buy servers their coffee fix with a monthly donation!"
-      keep_diaspora_running: "Keep Diaspora development fast with a monthly donation!"
+      keep_pod_running: "We need momey too!"
+      keep_diaspora_running: "Make a donation to us and keep us alive!"
       no_tags: "+ Find a tag to follow"
       unfollow_tag: "Stop following #%{tag}"
-      handle_explanation: "This is your Diaspora ID. Like an email address, you can give this to people to reach you."
+      handle_explanation: "This is your DM ID. Like an email address, you can give this to people to reach you."
       no_contacts: "No contacts"
       post_a_message: "post a message >>"
       people_sharing_with_you: "People sharing with you"
 
-      welcome_to_diaspora: "Welcome to Diaspora, %{name}!"
-      introduce_yourself: "This is your stream.  Jump in and introduce yourself."
+      welcome_to_diaspora: "Welcome to Deamspark, %{name}!"
+      introduce_yourself: "This is your Baord.  Start by saying something."
 
       new_here:
         title: "Welcome New Users"
-        follow: "Follow %{link} and welcome new users to Diaspora*!"
+        follow: "Follow %{link} and welcome new users to Deamspark!"
         learn_more: "Learn more"
 
       help:
         need_help: "Need Help?"
-        here_to_help: "The Diaspora community is here!"
+        here_to_help: "Ask around or a friend."
         do_you: "Do you:"
         have_a_question: "... have a %{link}?"
         tag_question: "question"
@@ -241,33 +239,33 @@ en:
         email_feedback: "%{link} your feedback, if you prefer"
         email_link: "Email"
       cubbies:
-        heading: "Connect to Cubbi.es"
-        explanation: "Cubbi.es is the first Diaspora application under development."
+        heading: "Connect to mus.ss"
+        explanation: "mus.ss is a application under development."
         learn_more: "Learn more"
       diaspora_id:
-        heading: "Diaspora ID"
-        content_1: "Your Diaspora ID is:"
-        content_2: "Give it to anyone and they'll be able to find you on Diaspora."
+        heading: "DM ID"
+        content_1: "Your DM ID is:"
+        content_2: "Give it to anyone and they'll be able to find you on Deamspark."
       services:
         heading: "Connect Services"
-        content: "You can connect the following services to Diaspora:"
+        content: "You can connect the following services to Deamspark:"
 
     aspect_stream:
       stay_updated: "Stay Updated"
-      stay_updated_explanation: "Your main stream is populated with all of your contacts, tags you follow, and posts from some creative members of the community."
-      make_something: "Make something"
+      stay_updated_explanation: "Your Main Board is populated with all of your followers, tags you follow, and posts."
+      make_something: "#5"
 
   aspect_memberships:
     destroy:
-      success: "Successfully removed person from aspect"
-      failure: "Failed to remove person from aspect"
-      no_membership: "Could not find the selected person in that aspect"
+      success: "Successfully removed person from group"
+      failure: "Failed to remove person from group"
+      no_membership: "Could not find the selected person in that group"
 
   bookmarklet:
     heading: "Bookmarklet"
     post_success: "Posted! Closing!"
-    post_something: "Post to Diaspora"
-    explanation: "Post to Diaspora from anywhere by bookmarking this link => %{link}."
+    post_something: "Post to Deamspark"
+    explanation: "Post to Deamspark from anywhere by bookmarking this link => %{link}."
 
   comments:
     zero: "no comments"
@@ -293,27 +291,27 @@ en:
     many: "%{count} contacts"
     other: "%{count} contacts"
     create:
-      failure: "Failed to create contact"
+      failure: "Failed to follow"
     sharing:
       people_sharing: "People sharing with you:"
     index:
-      add_to_aspect: "add contacts to %{name}"
+      add_to_aspect: "add followers to %{name}"
       start_a_conversation: "Start a conversation"
-      add_a_new_aspect: "Add a new aspect"
+      add_a_new_aspect: "Add a new group"
       title: "Contacts"
-      your_contacts: "Your Contacts"
-      no_contacts: "Looks like you need to add some contacts!"
+      your_contacts: "Your Followers"
+      no_contacts: "Looks like you need to get some followers!"
       no_contacts_message: "Check out %{community_spotlight}"
       no_contacts_message_with_aspect: "Check out %{community_spotlight} or %{add_to_aspect_link}"
-      add_to_aspect_link: "add contacts to %{name}"
-      community_spotlight: "Community Spotlight"
-      my_contacts: "My Contacts"
-      all_contacts: "All Contacts"
+      add_to_aspect_link: "add followers to %{name}"
+      community_spotlight: "Limelight"
+      my_contacts: "My Followers"
+      all_contacts: "All Followers"
       only_sharing_with_me: "Only sharing with me"
       remove_person_from_aspect: "Remove %{person_name} from \"%{aspect_name}\""
-      many_people_are_you_sure: "Are you sure you want to start a private conversation with more than %{suggested_limit} contacts? Posting to this aspect may be a better way to contact them."
+      many_people_are_you_sure: "Are you sure you want to start a private conversation with more than %{suggested_limit} followers? Posting to this group may be a better way to contact them."
     spotlight:
-      community_spotlight: "Community Spotlight"
+      community_spotlight: "Limelight"
 
   conversations:
     index:
@@ -332,7 +330,7 @@ en:
       subject: "subject"
       send: "Send"
       sending: "Sending..."
-      abandon_changes: "Abandon changes?"
+      abandon_changes: "Leave changes?"
     helper:
       new_messages:
         zero: "No new messages"
@@ -353,7 +351,7 @@ en:
       birthday_with_year: "%B %d %Y"
 
   invitation_codes:
-    excited: "%{name} is excited to see you here."
+    excited: "%{name} Is happy to see you."
   invitations:
     create:
       sent: "Invitations have been sent to: %{emails}"
@@ -366,27 +364,27 @@ en:
       note_already_sent: "Invitations have already been sent to: %{emails}"
     new:
       language: "Language"
-      invite_someone_to_join: "Invite someone to join Diaspora!"
-      if_they_accept_info: "if they accept, they will be added to the aspect you invited them."
+      invite_someone_to_join: "Invite someone to join Deamspark!"
+      if_they_accept_info: "if they accept, they will be added to the group you invited them."
       comma_separated_plz: "You can enter multiple email addresses separated by commas."
-      check_out_diaspora: "Hey! You should check out Diaspora*"
+      check_out_diaspora: "Hey! Look at Deamspark!"
       to: "To"
       personal_message: "Personal message"
       send_an_invitation: "Send an invitation"
       send_invitation: "Send invitation"
-      paste_link: "Share this link with your friends to invite them to Diaspora*, or email them the link directly."
+      paste_link: "Share this link with your friends to invite them to Deamspark, or email them the link directly."
       codes_left:
         zero:  "No invites left on this code"
         one:  "One invite left on this code"
         other:  "%{count} invites left on this code"
-      aspect: "Aspect"
+      aspect: "Group"
       already_invited: "The following people have not accepted your invitation:"
       resend: "Resend"
-      check_out_diaspora: "Check out Diaspora!"
+      check_out_diaspora: "Check out Deamspark!"
     check_token:
       not_found: "Invitation token not found"
     edit:
-      your_account_awaits: "Your account awaits!"
+      your_account_awaits: "Your account!"
       accept_your_invitation: "Accept your invitation"
     a_facebook_user: "A Facebook user"
 
@@ -402,13 +400,13 @@ en:
       view_all: "View all"
       recent_notifications: "Recent notifications"
     application:
-      powered_by: "POWERED BY DIASPORA*"
+      powered_by: ""
       whats_new: "what's new?"
       toggle: "toggle mobile"
-      public_feed: "Public Diaspora Feed for %{name}"
-      your_aspects: "your aspects"
+      public_feed: "Public Feed for %{name}"
+      your_aspects: "your groups"
       back_to_top: "Back to top"
-      source_package: "download the source code package"
+      source_package: ""
 
   likes:
     likes:
@@ -494,16 +492,16 @@ en:
     thanks: "Thanks,"
     to_change_your_notification_settings: "to change your notification settings"
     single_admin:
-        subject: "A message about your Diaspora account:"
-        admin: "Your Diaspora administrator"
+        subject: "A message about your Deamspark account:"
+        admin: "The administrator"
     started_sharing:
-        subject: "%{name} started sharing with you on Diaspora*"
+        subject: "%{name} started sharing with you on Deamspark"
         sharing: "has started sharing with you!"
         view_profile: "View %{name}'s profile"
     comment_on_post:
         reply: "Reply or view %{name}'s post >"
     mentioned:
-        subject: "%{name} has mentioned you on Diaspora*"
+        subject: "%{name} has mentioned you on Deamspark"
         mentioned: "mentioned you in a post:"
     private_message:
         reply_to_or_view: "Reply to or view this conversation >"
@@ -516,13 +514,13 @@ en:
     confirm_email:
         subject: "Please activate your new email address %{unconfirmed_email}"
         click_link: "To activate your new email address %{unconfirmed_email}, please follow this link:"
-    accept_invite: "Accept Your Diaspora* invite!"
-    invited_you: "%{name} invited you to Diaspora*"
+    accept_invite: "Accept Your invite!"
+    invited_you: "%{name} invited you to Deamspark"
     invite:
       message: |-
         Hello!
 
-        You have been invited to join Diaspora*!
+        You have been invited to join Deamspark!
 
         Click this link to get started
 
@@ -531,7 +529,7 @@ en:
 
         Love,
 
-        The Diaspora* email robot!
+        The DM robot!
 
         [1]: %{invite_url}
   people:
@@ -545,7 +543,7 @@ en:
       pending_request: "Pending request"
       already_connected: "Already connected"
       thats_you: "That's you!"
-      add_contact: "add contact"
+      add_contact: "add follower"
     index:
       results_for: "search results for"
       no_results: "Hey! You need to search for something."
@@ -558,7 +556,7 @@ en:
     show:
       has_not_shared_with_you_yet: "%{name} has not shared any posts with you yet!"
       incoming_request: "%{name} wants to share with you"
-      return_to_aspects: "Return to your aspects page"
+      return_to_aspects: "Return to your groups page"
       to_accept_or_ignore: "to accept or ignore it."
       does_not_exist: "Person does not exist!"
       not_connected: "You are not sharing with this person"
@@ -575,21 +573,21 @@ en:
       add_some: "add some"
       edit: "edit"
     profile_sidebar:
-      remove_contact: "remove contact"
+      remove_contact: "remove follower"
       edit_my_profile: "Edit my profile"
       bio: "bio"
       location: "location"
       gender: "gender"
       born: "birthday"
-      in_aspects: "in aspects"
+      in_aspects: "in groups"
       remove_from: "Remove %{name} from %{aspect}?"
     helper:
       results_for: " results for %{params}"
-      people_on_pod_are_aware_of: " people on pod are aware of"
+      people_on_pod_are_aware_of: " people are aware of"
     aspect_list:
-      edit_membership: "edit aspect membership"
+      edit_membership: "edit group partners"
     add_contact_small:
-      add_contact_from_tag: "add contact from tag"
+      add_contact_from_tag: "add follower from tag"
     last_post: "Last Post"
     add_contact:
       invited_by: "you were invited by"
@@ -656,18 +654,18 @@ en:
       last_name: "Last name"
       your_gender: "Your gender"
       your_birthday: "Your birthday"
-      your_tags: "Describe yourself in 5 words"
+      your_tags: "say something in a few words"
 
-      your_tags_placeholder: "like #movies #kittens #travel #teacher #newyork"
+      your_tags_placeholder: "like #5 #football #soccer #awesome #dog #USA"
 
       your_bio: "Your bio"
       your_location: "Your location"
       your_photo: "Your photo"
       update_profile: "Update Profile"
-      allow_search: "Allow for people to search for you within Diaspora"
+      allow_search: "Allow for people to search for you within DM"
       edit_profile: "Edit profile"
-      you_are_nsfw: "You have marked yourself not safe for work, your content will not show up in people who have opted out of seeing objectionable content's streams."
-      you_are_safe_for_work: "You have marked yourself as safe for work, this means you agree the content you post will agree with the community guidelines."
+      you_are_nsfw: "You have marked yourself not safe, so your content will not show up in people who blocked unsafe people."
+      you_are_safe_for_work: "You have marked yourself as safe, this means you will not be blocked from certain boards."
     update:
       updated: "Profile updated"
       failed: "Failed to update profile"
@@ -676,15 +674,15 @@ en:
     new:
       create_my_account: "Create my account!"
 
-      join_the_movement: "Join the movement!"
-      sign_up_message: "Social Networking with a ♥"
+      join_the_movement: "Join Now!"
+      sign_up_message: "#5 Winning ♥"
 
       enter_email: "Enter an email"
       enter_username: "Pick a username (only letters, numbers, and underscores)"
       enter_password: "Enter a password (six character minimum)"
       enter_password_again: "Enter the same password as before"
-      hey_make: "HEY,<br/>MAKE<br/>SOMETHING."
-      diaspora: "<3 Diaspora*"
+      hey_make: "#5."
+      diaspora: "DM"
       sign_up: "SIGN UP"
       email: "EMAIL"
       username: "USERNAME"
@@ -692,7 +690,7 @@ en:
       password_confirmation: "PASSWORD CONFIRMATION"
       continue: "Continue"
     create:
-      success: "You've joined Diaspora!"
+      success: "You've joined Deamspark!"
     edit:
       edit: "Edit %{name}"
       leave_blank: "(leave blank if you don't want to change it)"
@@ -700,20 +698,20 @@ en:
       unhappy: "Unhappy?"
       update: "Update"
       cancel_my_account: "Cancel my account"
-    closed: "Signups are closed on this Diaspora pod."
+    closed: "Signups are closed on this DM currently."
     invalid_invite: "The invite link you provided is no longer valid!"
 
   requests:
     manage_aspect_contacts:
-      manage_within: "Manage contacts within"
-      existing: "Existing contacts"
+      manage_within: "Manage followers within"
+      existing: "Existing followers"
     destroy:
       success: "You are now sharing."
-      error: "Please select an aspect!"
-      ignore: "Ignored contact request."
+      error: "Please select a group!"
+      ignore: "Ignored follower request."
     create:
       sending: "Sending"
-      sent: "You've asked to share with %{name}.  They should see it next time they log in to Diaspora."
+      sent: "You've asked to share with %{name}.  They should see it next time they log in to DM."
     new_request_to_person:
       sent: "sent!"
     helper:
@@ -748,38 +746,38 @@ en:
     create:
       success: "Authentication successful."
       failure: "Authentication failed."
-      already_authorized: "A user with diaspora id %{diaspora_id} already authorized that %{service_name} account."
+      already_authorized: "A user with the DM ID %{diaspora_id} already authorized that %{service_name} account."
     destroy:
       success: "Successfully deleted authentication."
     failure:
       error: "there was an error connecting that service"
     inviter:
-      join_me_on_diaspora: "Join me on DIASPORA*"
+      join_me_on_diaspora: "Join me on Deamspark!"
       click_link_to_accept_invitation: "Follow this link to accept your invitation"
     finder:
-      fetching_contacts: "Diaspora is populating your %{service} friends, please check back in a few minutes."
+      fetching_contacts: "Deamspark is populating your %{service} friends, please check back in a few minutes."
       service_friends: "%{service} Friends"
       no_friends: "No Facebook friends found."
     remote_friend:
       resend: "resend"
       invite: "invite"
-      not_on_diaspora: "Not yet on Diaspora"
+      not_on_diaspora: "Not yet on DM"
 
   blocks:
     create:
-      success: "Alright, you won't see that user in your stream again. #silencio!"
-      failure: "I couldn't ignore that user.  #evasion"
+      success: "This person will not be shown again!"
+      failure: "FAIL."
     destroy:
-      success: "Let's see what they have to say! #sayhello"
-      failure: "I couldn't stop ignoring that user.  #evasion"
+      success: "I glad to see you again!"
+      failure: "I didn't wat to stop ignoring you!"
 
   shared:
     aspect_dropdown:
-      add_to_aspect: "Add contact"
+      add_to_aspect: "Add follower"
       toggle:
-        zero: "Add contact"
-        one: "In %{count} aspect"
-        other: "In %{count} aspects"
+        zero: "Add follower"
+        one: "In %{count} group"
+        other: "In %{count} groups"
     publisher:
       posting: "Posting..."
       share: "Share"
@@ -787,29 +785,29 @@ en:
       make_public: "make public"
       all: "all"
       upload_photos: "Upload photos"
-      all_contacts: "all contacts"
+      all_contacts: "all followers"
       share_with: "share with"
-      whats_on_your_mind: "What's on your mind?"
+      whats_on_your_mind: "Make a post."
       publishing_to: "publishing to: "
       discard_post: "Discard post"
       new_user_prefill:
-        newhere: "NewHere"
-        hello: "Hey everyone, I'm #%{new_user_tag}. "
-        i_like: "I'm interested in %{tags}. "
+        newhere: "Newbie"
+        hello: "hello, im %{diaspora_id}, and i just joined."
+        i_like: ""
         invited_by: "Thanks for the invite, "
     add_contact:
-      enter_a_diaspora_username: "Enter a Diaspora username:"
-      your_diaspora_username_is: "Your Diaspora username is: %{diaspora_handle}"
-      create_request: "Find by Diaspora ID"
-      diaspora_handle: "diaspora@pod.org"
+      enter_a_diaspora_username: "Enter a DM username:"
+      your_diaspora_username_is: "Your DM username is: %{diaspora_handle}"
+      create_request: "Find by DM ID"
+      diaspora_handle: "he@he.com"
       know_email: "Know their email address? You should invite them"
-      add_new_contact: "Add a new contact"
+      add_new_contact: "Add a new follower"
     invitations:
       invites: "Invites"
       invite_someone: "Invite someone"
       invitations_left: "%{count} left"
       dont_have_now: "You don't have any right now, but more invites are coming soon!"
-      invites_closed: "Invites are currently closed on this Diaspora pod"
+      invites_closed: "Invites are currently closed right now!"
       invite_your_friends: "Invite your friends"
       from_facebook: "From Facebook"
       by_email: "By email"
@@ -818,18 +816,18 @@ en:
       reshare: "Reshare"
     public_explain:
       control_your_audience: "Control your Audience"
-      new_user_welcome_message: "Use #hashtags to classify your posts and find people who share your interests.  Call out awesome people with @Mentions"
-      visibility_dropdown: "Use this dropdown to change visibility of your post.  (We suggest you make this first one public.)"
+      new_user_welcome_message: "Use #hashtags to sort your posts and be apart of a crowd, or be an idividual.  Shout out people with @Mentions"
+      visibility_dropdown: "Use this dropdown to change who can see your post"
       title: "Set up connected services"
       share: "Share"
-      outside: "Public messages will be available for others outside of Diaspora to see."
+      outside: "Public messages will be available for others outside of Deamspark to see."
       logged_in: "logged in to %{service}"
       manage: "manage connected services"
       atom_feed: "Atom feed"
     notification:
       new: "New %{type} from %{from}"
     contact_list:
-      all_contacts: "All contacts"
+      all_contacts: "All followers"
     stream_element:
       viewable_to_anyone: "This post is viewable to anyone on the web"
       connect_to_comment: "Connect to this user to comment on their post"
@@ -837,7 +835,7 @@ en:
       via: "via %{link}"
       via_mobile: "via mobile"
       ignore_user: "Ignore %{name}"
-      ignore_user_description: "Ignore and remove user from all aspects?"
+      ignore_user_description: "Ignore and remove user from all groups?"
       hide_and_mute: "Hide and mute post"
       like: "Like"
       unlike: "Unlike"
@@ -847,7 +845,7 @@ en:
       show: "show"
     footer:
       logged_in_as: "logged in as %{name}"
-      your_aspects: "your aspects"
+      your_aspects: "your groups"
   status_messages:
     new:
       mentioning: "Mentioning: %{person}"
@@ -881,24 +879,24 @@ en:
       none: "The empty tag does not exist!"
   tag_followings:
     create:
-      success: "Hooray!  You're now following #%{name}."
-      failure: "Failed to follow #%{name}.  Are you already following it?"
+      success: "You're now following #%{name}."
+      failure: "Failed to follow #%{name}."
       none: "You cannot follow a blank tag!"
     destroy:
-      success: "Alas! You aren't following #%{name} anymore."
-      failure: "Failed to stop following #%{name}. Maybe you already stopped following it?"
+      success: "You aren't following #%{name} anymore."
+      failure: "Failed to stop following #%{name}."
 
   tokens:
     show:
-      connect_to_cubbies: "Connect to Cubbi.es"
-      what_is_cubbies: "Cubbi.es is the world's first Diaspora application.  It's also the best way to collect photos online."
-      love_to_try: "We'd love for you to try it out."
+      connect_to_cubbies: "Connect to mus.ss"
+      what_is_cubbies: "muss.ss is the first DM application.  It isn't up, but check back later."
+      love_to_try: "try it out today!"
       sign_up_today: "Sign up today!"
-      screenshot_explanation: "%{link1}.  This particular cubby is linked to %{link2}."
-      typical_userpage: "A typical cubbi.es userpage"
-      daniels_account: "Daniel's Diaspora account"
+      screenshot_explanation: "%{link1}.  This particular MUS is linked to %{link2}."
+      typical_userpage: "A typical mus.ss userpage"
+      daniels_account: "Roberts DM account"
       making_the_connection: "Making the Connection"
-      connecting_is_simple: "Connecting your Diaspora account is simple!  Just enter your Diaspora ID (<b>%{diaspora_id}</b>) from your cubbies <a href='%{href_link}'>settings page</a> and hit connect."
+      connecting_is_simple: "Connecting your Deamspark account is simple!  Just enter your DM ID (<b>%{diaspora_id}</b>) from your MUS <a href='%{href_link}'>settings page</a> and hit connect."
       via: "(via %{link})"
 
   authorizations:
@@ -906,13 +904,13 @@ en:
       revoke_access: "Revoke Access"
       no_applications: "You haven't registered any applications yet."
     new:
-      cubbies_will: "Cubbies will be able to post photos on your behalf"
+      cubbies_will: "MUS will be able to post photos on your behalf"
       authorize: "Authorize"
       nope: "No"
 
   streams:
-    community_spotlight_stream: "Community Spotlight"
-    aspects_stream: "Aspects"
+    community_spotlight_stream: "Limelight"
+    aspects_stream: "Groups"
     mentioned_stream: "@Mentions"
     followed_tags_stream: "#Followed Tags"
 
@@ -925,18 +923,18 @@ en:
       contacts_title: "People whose posts you commented on"
 
     like_stream:
-      title: "Like Stream"
+      title: "Like Board"
       contacts_title: "People whose posts you like"
 
     followed_tag:
       title: "#Followed Tags"
-      contacts_title: "People who dig these tags"
+      contacts_title: "People who used these tags"
       add_a_tag: "Add a tag"
       follow: "Follow"
 
     tags:
       title: "Posts tagged: %{tags}"
-      contacts_title: "People who dig this tag"
+      contacts_title: "People who used this tag"
       tag_prefill_text: "The thing about %{tag_name} is... "
 
     public:
@@ -944,11 +942,11 @@ en:
       contacts_title: "Recent Posters"
 
     multi:
-      title: "Stream"
-      contacts_title: "People in your Stream"
+      title: "Board"
+      contacts_title: "People on your Board"
 
     aspects:
-      title: "My Aspects"
+      title: "My Groups"
 
     activity:
       title: "My Activity"
@@ -966,11 +964,11 @@ en:
       character_minimum_expl: "must be at least six characters"
       download_xml: "download my xml"
       download_photos: "download my photos"
-      your_handle: "Your Diaspora ID"
+      your_handle: "Your DM ID"
       your_email: "Your email"
       edit_account: "Edit account"
       receive_email_notifications: "Receive email notifications when..."
-      also_commented: "...someone also comments on your contact's post?"
+      also_commented: "...someone also comments on your follower's post?"
       comment_on_post: "...someone comments on your post?"
       mentioned: "...you are mentioned in a post?"
       started_sharing: "...someone starts sharing with you?"
@@ -979,19 +977,19 @@ en:
       reshared: "...someone reshares your post?"
       change: "Change"
       email_awaiting_confirmation: "We have sent you an activation link to %{unconfirmed_email}. Until you follow this link and activate the new address, we will continue to use your original address %{email}."
-      stream_preferences: "Stream Preferences"
-      show_community_spotlight: "Show Community Spotlight in Stream?"
+      stream_preferences: "Board Preferences"
+      show_community_spotlight: "Show Limelight on Board?"
       show_getting_started: 'Re-enable Getting Started'
       getting_started: 'New User Prefrences'
       following: "Following Settings"
       auto_follow_back: "Automatically follow back if someone follows you"
-      auto_follow_aspect: "Aspect for automatically followed users:"
+      auto_follow_aspect: "Group for automatically followed users:"
 
       close_account:
-        dont_go: "Hey, please don't go!"
-        make_diaspora_better: "We want you to help us make Diaspora better, so you should help us out instead of leaving. If you do want to leave, we want you to know what happens next."
-        mr_wiggles: 'Mr Wiggles will be sad to see you go'
-        what_we_delete: "We delete all of your posts, profile data, as soon as humanly possible. Your comments will hang around, but be associated with your Diaspora ID."
+        dont_go: "Don't go its cold outside!"
+        make_diaspora_better: "Be a contributer and help make DM better!"
+        mr_wiggles: 'ABC is going to miss U.'
+        what_we_delete: "All of your info has been deleted, But your comments will hang around, but be associated with your DM ID."
         locked_out: "You will get signed out and locked out of your account."
         lock_username: "This will lock your username if you decided to sign back up."
         no_turning_back: "Currently, there is no turning back."
@@ -1003,22 +1001,22 @@ en:
       stop_ignoring: "Stop ignoring"
 
     destroy:
-      success: "Your account has been locked.  It may take 20 minutes for us to finish closing your account.  Thank you for trying Diaspora."
+      success: "Your account has been locked.  It may take 20 minutes for us to finish closing your account.  Thank you for using Deamspark."
       no_password: "Please enter your current password to close your account."
       wrong_password: "The entered password didn't match your current password."
     getting_started:
-      well_hello_there: "Well, hello there!"
-      community_welcome: "Diaspora's community is happy to have you aboard!"
+      well_hello_there: "Hello,"
+      community_welcome: "Welcome to Deamspark"
 
-      awesome_take_me_to_diaspora: "Awesome! Take me to Diaspora*"
+      awesome_take_me_to_diaspora: "Cool. Lets get started."
 
       who_are_you: "Who are you?"
-      connect_to_facebook: "We can speed things up a bit by %{link} to Diaspora. This will pull your name and photo, and enable cross-posting."
+      connect_to_facebook: "We can speed things up a bit by %{link} to Deamspark. This will pull your name and photo, and enable cross-posting."
       connect_to_facebook_link: "hooking up your Facebook account"
 
       what_are_you_in_to: "What are you into?"
-      hashtag_explanation: "Hashtags allow you to talk about and follow your interests.  They're also a great way to find new people on Diaspora."
-      hashtag_suggestions: "Try following tags like #art, #movies, #gif, etc."
+      hashtag_explanation: "Hashtags allow you to talk about and follow your interests.  They're also a great way to find people of Deamspark."
+      hashtag_suggestions: "Try following tags like #5, #Coats, #football etc."
 
       saved: "Saved!"
 
